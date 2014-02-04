@@ -24,7 +24,7 @@ gitbranch: master
 inherit: empty
 
 configure {
-    qmake BOOST_SUFFIX=-mt
+    qmake 
 }
 
 make {
